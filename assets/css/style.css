@@ -4,4 +4,23 @@
 /*General Style rule*/
 body {
     font-family: 'courgette';
+    padding: 0;
+    margin: 0;
+}
+
+/*Header*/
+header {
+    background-color: aqua;
+    
+}
+
+/*Main content*/
+main {
+    background-color: aquamarine;
+    
+}
+
+/*Footer*/
+footer {
+    background-color: aqua;
 }
