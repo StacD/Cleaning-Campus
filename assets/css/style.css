@@ -18,7 +18,7 @@ body {
 
 /*Header*/
 header {
-    background-color: aquamarine;
+    background-color: aqua;
     display: flex;    
 }
 
@@ -43,6 +43,11 @@ main {
 /*Footer*/
 footer {
     background-color: aqua;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:auto;
 }
 /*Contact Details*/
 
@@ -56,5 +61,9 @@ footer {
 
 #social {
     list-style-type: none;
-    display: flex;   
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    
+      
 }
