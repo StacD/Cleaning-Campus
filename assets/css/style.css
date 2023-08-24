@@ -1,21 +1,38 @@
 /*Google font link*/
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Tenor+Sans&display=swap');
 
+/* Asterisk to over ride default settings*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /*General Style rule*/
 body {
     font-family: 'courgette';
+    color: black;
     padding: 0;
     margin: 0;
 }
 
 /*Header*/
 header {
-    background-color: aqua;
-    
+    background-color: aquamarine;
+    display: flex;    
+}
+
+#logo {
+    position: relative;
+    order: 1;
 }
 
 #menu {
     list-style-type: none;
+    display: inline;
+    order: 2;
+    
+    
 }
 /*Main content*/
 main {
@@ -39,5 +56,5 @@ footer {
 
 #social {
     list-style-type: none;
-    text-align: center;
+    display: flex;   
 }
