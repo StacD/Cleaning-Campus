@@ -27,3 +27,17 @@ main {
 footer {
     background-color: aqua;
 }
+/*Contact Details*/
+
+#contact-details {
+    list-style-type: none;
+    text-align: center;
+}
+
+
+/*Social Media links*/
+
+#social {
+    list-style-type: none;
+    text-align: center;
+}
