@@ -14,6 +14,9 @@ header {
     
 }
 
+#menu {
+    list-style-type: none;
+}
 /*Main content*/
 main {
     background-color: aquamarine;
