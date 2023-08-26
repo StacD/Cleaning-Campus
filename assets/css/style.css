@@ -82,24 +82,38 @@ main {
 /*tip section*/
 
 #tip-content {
-    float: left;
     padding: 15px;
+    background: url('../images/pexels-anna-shvets-5217930.jpg') no-repeat center/cover;
+    width:100%;
+    display: flex;
 }
-#tip-image {
-    float:right;
-    padding:15px;
-    margin-bottom: 50;
+
+#tip-content h3 {
+    text-align: left;
+    order: 0;
+    align-items: baseline;
+}
+#tip-content p {
+    order:1px;
+    text-align: left;
+    flex-basis: auto;
+}
+
+#tip-content a {
+    order:2px;
 }
 
 /* Newsletter form*/
 /* Image and boarder*/
 
 #newsletter { 
-    background:url('../images/pexels-anna-shvets-5217930.jpg') no-repeat center/cover;
-    background-size: cover;
+    background-color: mistyrose;
     text-align: center;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    top: 10px;
+    bottom: 0;
+    width:100%;
 }
 
 /* Input fields*/
