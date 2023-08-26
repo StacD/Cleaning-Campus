@@ -40,8 +40,12 @@ header {
 /*Main content*/
 main {
     background-color: aquamarine;
-    display: flex;
     flex-direction: column;
+    width: 100vw;
+    height:100vh;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    overflow: auto;
 }
 
 /*Footer*/
