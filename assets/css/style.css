@@ -80,27 +80,36 @@ main {
 
 /* Newsletter form*/
 
-#newsletter~h3 , #signup-form { 
-    background:url('../images/pexels-cottonbro-studio-4108715.jpg') no-repeat center/cover;
+#newsletter { 
+    background:url('../images/pexels-anna-shvets-5217930.jpg') no-repeat center/cover;
     background-size: cover;
     text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#firstname, #lastname, #email {
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
 }
 
 .submit {
     border-radius: 2px;
-    border: 2px solid black;
-    background-color: aqua;
-    
+    border: 1px solid black;
+    background-color: rgb(252, 145, 234);
+    margin-bottom: 10px;
 }
 
 /*Footer*/
 footer {
-    background-color: aqua;
+    background-color: rgb(252, 145, 234);
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     justify-content:end;
+    border-top: 1px solid black;
     
 }
 /*Contact Details*/
