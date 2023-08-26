@@ -13,54 +13,58 @@ body {
     font-family: 'courgette';
     color: black;
     min-height: 100vh;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
 /*Header*/
 header {
     background-color: aqua;
-    display: flex;    
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    margin: 0; 
 }
 
 #logo {
     position: relative;
-    order: 1;
+    flex: 1, 5, 250px;
 }
 
 #menu {
     list-style-type: none;
-    display: inline;
-    order: 2;
-    
-    
+    font-size: 70%;
 }
+
 /*Main content*/
 main {
     background-color: aquamarine;
-    height:100%;
-    width:100%;
-    
-
-    
+    display: flex;
+    flex-direction: column;
 }
 
 /*Footer*/
 footer {
     background-color: aqua;
-    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    justify-content:end;
     
 }
 /*Contact Details*/
 
 #contact-us h3 {
     text-align: center;
+    font-size: 80%;
 }
 
 #contact-details {
     list-style-type: none;
     text-align: center;
-    font-size: 80%;
+    font-size: 70%;
 }
 
 
