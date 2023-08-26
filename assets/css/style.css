@@ -78,6 +78,24 @@ main {
     overflow: auto;
 }
 
+/* Newsletter form*/
+
+#signup-form { 
+    background-color:white ;
+    background-size: cover;
+    justify-content:center;
+    text-align: center;
+}
+
+#email, #lastname, #firstname {
+    font-size:80%;
+}
+
+.input {
+    background-color: transparent;
+    text-align: right;
+}
+
 /*Footer*/
 footer {
     background-color: aqua;
