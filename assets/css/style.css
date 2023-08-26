@@ -18,7 +18,8 @@ body {
 
 /*Header*/
 header {
-    background-color: aqua;
+    background-color: rgb(252, 145, 234);
+    border-bottom: 1px solid black;
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -49,7 +50,7 @@ header a {
 
 nav {
     position:absolute;
-    background-color: aqua;
+    background-color: rgb(252, 145, 234);
     font-size: 100%;
     width: 100%;
     left:10;
@@ -78,7 +79,18 @@ main {
     overflow: auto;
 }
 
+/*tip section*/
+#tip { flex-direction: row;
+    
+}
+#tip-image {
+    display:block;
+    height: 20%;
+    width: 20%;
+}
+
 /* Newsletter form*/
+/* Image and boarder*/
 
 #newsletter { 
     background:url('../images/pexels-anna-shvets-5217930.jpg') no-repeat center/cover;
@@ -88,17 +100,22 @@ main {
     border-bottom: 1px solid black;
 }
 
+/* Input fields*/
+
 #firstname, #lastname, #email {
     background-color: transparent;
     color: black;
     border-radius: 10px;
 }
 
+/*Submit button*/
+
 .submit {
     border-radius: 2px;
     border: 1px solid black;
     background-color: rgb(252, 145, 234);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 /*Footer*/
@@ -109,9 +126,9 @@ footer {
     bottom: 0;
     width: 100%;
     justify-content:end;
-    border-top: 1px solid black;
-    
+    border-top: 1px solid black;   
 }
+
 /*Contact Details*/
 
 #contact-us h3 {
@@ -124,7 +141,6 @@ footer {
     text-align: center;
     font-size: 70%;
 }
-
 
 /*Social Media links*/
 
