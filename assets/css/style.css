@@ -18,7 +18,7 @@ body {
 
 /*Header*/
 header {
-    background-color: rgb(252, 145, 234);
+    background-color: rgba(252, 145, 234);
     border-bottom: 1px solid black;
     position: fixed;
     display: flex;
@@ -56,6 +56,7 @@ nav {
     left:10;
     top:100%;
     padding: 0;
+    margin: 0;
     display:none;
 }
 /*menu dropdown settings*/
@@ -70,37 +71,49 @@ nav {
 
 /*Main content*/
 main {
-    background-color: aquamarine;
+
     flex-direction: column;
     width: 100vw;
     height:100vh;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 65px;
     overflow: auto;
 }
 
+/*About us section*/
+
+#about-us {
+    background-color: mistyrose;
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+}
+ /* Losing white space between header and main content*/
+#about-us h3 {
+    margin-top: 0px;
+    padding: 0px;
+
+    
+}
+
 /*tip section*/
 
-#tip-content {
-    padding: 15px;
+#tip {
+    
     background: url('../images/pexels-anna-shvets-5217930.jpg') no-repeat center/cover;
-    width:100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+#tip-content {
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+/*Image wih link style*/
 
-#tip-content h3 {
-    text-align: left;
-    order: 0;
-    align-items: baseline;
-}
-#tip-content p {
-    order:1px;
-    text-align: left;
-    flex-basis: auto;
-}
-
-#tip-content a {
-    order:2px;
+#planner{
+    width: 100px;
+    height:100px;
 }
 
 /* Newsletter form*/
