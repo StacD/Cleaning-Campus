@@ -48,8 +48,9 @@ header a {
 /* Making toggle menu*/
 
 nav {
-    position: absolute;
+    position:absolute;
     background-color: aqua;
+    font-size: 100%;
     width: 100%;
     left:10;
     top:100%;
@@ -62,13 +63,17 @@ nav {
     display: block;
 }
 
+#nav-bar {
+    display: none;
+}
+
 /*Main content*/
 main {
     background-color: aquamarine;
     flex-direction: column;
     width: 100vw;
     height:100vh;
-    padding-top: 90px;
+    padding-top: 50px;
     padding-bottom: 90px;
     overflow: auto;
 }
