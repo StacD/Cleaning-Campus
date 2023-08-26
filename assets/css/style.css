@@ -48,17 +48,19 @@ main {
 /*Footer*/
 footer {
     background-color: aqua;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height:auto;
+    display: block;
+    
 }
 /*Contact Details*/
+
+#contact-us h3 {
+    text-align: center;
+}
 
 #contact-details {
     list-style-type: none;
     text-align: center;
+    font-size: 80%;
 }
 
 
