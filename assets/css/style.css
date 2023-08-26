@@ -81,7 +81,7 @@ main {
 /* Newsletter form*/
 
 #newsletter~h3 , #signup-form { 
-    background-color:white ;
+    background:url('../images/pexels-cottonbro-studio-4108715.jpg') no-repeat center/cover;
     background-size: cover;
     text-align: center;
 }
