@@ -74,26 +74,23 @@ main {
     width: 100vw;
     height:100vh;
     padding-top: 50px;
-    padding-bottom: 90px;
+    padding-bottom: 65px;
     overflow: auto;
 }
 
 /* Newsletter form*/
 
-#signup-form { 
+#newsletter~h3 , #signup-form { 
     background-color:white ;
     background-size: cover;
-    justify-content:center;
     text-align: center;
 }
 
-#email, #lastname, #firstname {
-    font-size:80%;
-}
-
-.input {
-    background-color: transparent;
-    text-align: right;
+.submit {
+    border-radius: 2px;
+    border: 2px solid black;
+    background-color: aqua;
+    
 }
 
 /*Footer*/
