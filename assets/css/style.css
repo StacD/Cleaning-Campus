@@ -82,6 +82,7 @@ main {
     text-align: center;
     margin-top: 0px;
     padding: 0px;
+    padding-bottom:5px;
 }
  /* Losing white space between header and main content*/
 #about-us h3 {
@@ -276,6 +277,25 @@ footer {
 #social-pages {
     padding-top: 10px;
     font-size: 125%;
+}
+
+}
+
+/*Media query for screens min of 768px*/
+
+@media screen and (min-width: 768px) {
+
+#about-us {
+    height:250px;
+}
+#about-us h3 {
+    font-size: 200%;
+}    
+#about-us p {
+    font-size: 150%;
+    text-align: center;
+    justify-content: space-between;
+
 }
 
 }
