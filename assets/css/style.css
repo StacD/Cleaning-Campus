@@ -179,3 +179,32 @@ footer {
     justify-content: space-evenly;
     color: inherit;
 }
+
+/* Media Queries Below */
+/* Media Query for screens 530px and up) */
+
+@media screen and (min-width: 530px) {
+
+/* Make header a better size for larger screen*/
+
+header {
+    height: 100px;
+    font-size: 40px;
+    align-items: center;
+}   
+
+/* Lowering main content so not covered by bigger header*/
+
+#about-us {
+    margin-top:120px;
+    height: 300px;
+    font-size: 200%;
+}
+#about-us h3 {
+    text-align: left;
+}
+#about-us p {
+    text-align: left;
+}
+
+}
