@@ -18,7 +18,7 @@ body {
 
 /*Header*/
 header {
-    background-color: rgba(252, 145, 234);
+    background-color: #FEDC61;
     border-bottom: 1px solid black;
     position: fixed;
     display: flex;
@@ -38,7 +38,7 @@ header a {
 
 #logo {
     position: relative;
-    flex: 1, 5, 250px;
+    flex: 1 5 250px;
 }
 
 #menu {
@@ -50,10 +50,10 @@ header a {
 
 nav {
     position:absolute;
-    background-color: rgb(252, 145, 234);
+    background-color: #FEDC61;
     font-size: 100%;
     width: 100%;
-    left:10;
+    left:0%;
     top:100%;
     padding: 0;
     margin: 0;
@@ -76,14 +76,14 @@ main {
     width: 100vw;
     height:100vh;
     padding-top: 40px;
-    padding-bottom: 65px;
+    padding-bottom: 0px;
     overflow: auto;
 }
 
 /*About us section*/
 
 #about-us {
-    background-color: mistyrose;
+    background-color: #F2F2F8;
     text-align: center;
     margin-top: 0px;
     padding: 0px;
@@ -100,7 +100,7 @@ main {
 
 #tip {
     
-    background: url('../images/pexels-anna-shvets-5217930.jpg') no-repeat center/cover;
+    background: url('../images/pexels-photo-6489663.jpeg') no-repeat center/cover;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -112,20 +112,23 @@ main {
 /*Image wih link style*/
 
 #planner{
-    width: 100px;
-    height:100px;
+    width: 90px;
+    height:90px;
+    position: relative;
+    left: -90px;
+    
 }
 
 /* Newsletter form*/
 /* Image and boarder*/
 
 #newsletter { 
-    background-color: mistyrose;
+    background-color: #F2F2F8;
     text-align: center;
     border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    top: 10px;
-    bottom: 0;
+    
+    top: 100px;
+    bottom: 0px;
     width:100%;
 }
 
@@ -142,15 +145,16 @@ main {
 .submit {
     border-radius: 2px;
     border: 1px solid black;
-    background-color: rgb(252, 145, 234);
+    background-color: #FEDC61;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
 /*Footer*/
 footer {
-    background-color: rgb(252, 145, 234);
-    position: fixed;
+    background-color: #FEDC61;
+    position: relative;
+    top:0;
     left: 0;
     bottom: 0;
     width: 100%;
