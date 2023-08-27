@@ -24,7 +24,8 @@ header {
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 1;
+    padding: 5px,15px;
+    margin: 5px,15px;
     align-items: baseline;
     justify-content: space-between;
 }
@@ -322,40 +323,42 @@ footer {
 /* Newsletter section 768px up */
 
 #newsletter {
-    height: 200px;
+    height: 300px;
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    font-size: 125%;
 }
 
 /*submit button larger*/
 
 .submit {
-    font-size: 100%;
+    font-size: 125%;
     padding: 5px;
     margin-top: 20px;
 }
 
 #newsletter h3 {
     padding-top: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     text-align: center;
-    font-size: 120%;
+    font-size: 150%;
 
 }
 /*footer styling*/
 
 footer {
-    height: 200px;
-    padding-top: 10px;
+    height: 150px;
+    padding-bottom: 90px;
     font-size: 200%;
     align-items: baseline;
 }
 
 /* Social media icons larger and spaced from contact information */
 #social-pages {
-    
     font-size: 140%;
-}
+    padding-bottom: 0px;
+    margin-bottom: 0px;
     
 }
 
+}
