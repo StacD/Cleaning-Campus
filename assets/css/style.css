@@ -542,10 +542,10 @@ footer {
 /* tweaks for large screens */
 @media screen and (min-width: 1200px) {
     .nav-bar-label {
-            text-align: right;
+            justify-content: right;
             font-size: 120%;
             padding-left: 180px;
-            margin-left: 700px;
+            margin-left: 900px;
         }
 
         #monthly {
@@ -558,9 +558,8 @@ footer {
         #tip-content {
             padding-top: 5px;
             font-size: 160%;
-            margin-right: 500px;
             column-count: 2;
-            column-gap: 100px;
+            column-gap: 40px;
         }        
         
 /* Social media icons larger and spaced from contact information */
