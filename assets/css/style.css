@@ -78,7 +78,7 @@ main {
     flex-direction: column;
     width: 100vw;
     height:100vh;
-    padding-top: 40px;
+    padding-top: 100px;
     padding-bottom: 0px;
     overflow: auto;
 }
@@ -86,7 +86,7 @@ main {
 /*About us section*/
 
 #about-us {
-    background-color: #F2F2F8;
+    background-color: #ffffff;
     text-align: center;
     margin-top: 0px;
     padding: 0px;
@@ -94,16 +94,28 @@ main {
 }
  /* Losing white space between header and main content*/
 #about-us h3 {
-    margin-top: 70px;
+    margin-top: 0px;
     padding-left: 10px;
+    padding-bottom: 10px;
     text-align: left;   
 }
 
 /* side by side layout for about us content including image*/
 #about-us{
     column-count: 2;
+    padding-top: 10px;
+    font-size: 80%;
 }
 
+/*Image in about us section positioned and sized to fit */
+
+#about-us-image {
+    height: 30%;
+    width:30%;
+    margin:0px, 30px;
+    padding:0px, 30px;
+    align-items: center;
+}
 /*tip section*/
 
 #tip {
