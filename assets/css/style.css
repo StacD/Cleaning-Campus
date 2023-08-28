@@ -61,11 +61,11 @@ nav {
 #nav-bar:checked~nav {
     display: block;
 }
-
+/*no bullet points on menu frop downs*/
 #nav-bar {
     display: none;
 }
-
+/*nav bar to the right*/
 .nav-bar-label {
     text-align: right;
     padding-left: 120px;
@@ -94,10 +94,14 @@ main {
 }
  /* Losing white space between header and main content*/
 #about-us h3 {
-    margin-top: 0px;
-    padding: 0px;
+    margin-top: 70px;
+    padding-left: 10px;
+    text-align: left;   
+}
 
-    
+/* side by side layout for about us content including image*/
+#about-us{
+    column-count: 2;
 }
 
 /*tip section*/
