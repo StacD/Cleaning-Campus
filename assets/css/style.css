@@ -112,9 +112,9 @@ main {
 #about-us-image {
     height: 30%;
     width:30%;
-    margin:0px, 30px;
-    padding:0px, 30px;
-    align-items: center;
+    margin-top: 100px;
+    margin-right: 100px;
+    align-items: left;
 }
 /*tip section*/
 
