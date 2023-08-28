@@ -210,37 +210,39 @@ footer {
 
 @media screen and (min-width: 530px) {
 
-/* Make header a better size for larger screen*/
+    /* Make header a better size for larger screen*/
 
-header {
-    height: 100px;
-    font-size: 25px;
-    align-items:center;
-}   
+    header {
+        height: 100px;
+        font-size: 25px;
+        align-items: center;
+    }
 
-.nav-bar-label {
-    text-align: right;
-    font-size: 120%;
-    padding-left: 180px;
-    margin-left: 180px;
-}
+    .nav-bar-label {
+        text-align: right;
+        font-size: 120%;
+        padding-left: 180px;
+        margin-left: 180px;
+    }
 
-/* Lowering main content so not covered by bigger header*/
+    /* Lowering main content so not covered by bigger header*/
 
-    
-}
+
+
+
 /* space between text and top of section and H3 placement*/
 #about-us h3 {
     padding-top: 5px;
     text-align: left;
     font-size: 150%;
 }
+
 /* About us p text styling */
 
 #about-us p {
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left:10px;
+    padding-left: 10px;
     text-align: center;
     font-size: 120%;
 }
@@ -248,11 +250,12 @@ header {
 #about-us-image {
     margin-right: 0px;
 }
+
 /*tip section spacing styling*/
 
 #tip {
     font-size: 100%;
-    height:300px;
+    height: 300px;
     padding-top: 10px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -261,29 +264,31 @@ header {
 /* space between text and top of section*/
 
 #tip-content {
-    
- column-count: 3;
+
+    column-count: 3;
 }
+
 /* Make planner picture a circle*/
 
 #planner {
     height: 150px;
     width: 150px;
-    border-radius: 50%;   
+    border-radius: 50%;
 }
 
 /*Newsletter section*/
 
 #newsletter {
-    height:200px;
+    height: 200px;
     padding-top: 30px;
     padding-bottom: 10px;
 }
+
 /*submit button larger*/
 
 .submit {
     font-size: 100%;
-    padding:5px;
+    padding: 5px;
     margin-top: 20px;
 }
 
@@ -298,7 +303,7 @@ header {
 /*footer styling*/
 
 footer {
-    height:100px;
+    height: 100px;
     padding-top: 10px;
     align-items: baseline;
 }
@@ -307,90 +312,114 @@ footer {
 #social-pages {
     padding-top: 10px;
     font-size: 125%;
-}
-
 }
 
 /*Media query for screens min of 768px*/
 
 @media screen and (min-width: 768px) {
+    header {
+        font-size: 200%;
+    }
+    #logo {
+        font-size: 400%;
 
-#about-us {
-    height:250px;
-}
-#about-us h3 {
-    font-size: 200%;
-}    
-#about-us p {
-    font-size: 150%;
-    text-align: center;
-    justify-content: space-between;
-}
+    }
 
-/*tip section spacing styling*/
+    .nav-bar-label {
+        text-align: right;
+        font-size: 120%;
+        padding-left: 180px;
+        margin-left: 400px;
+    }
 
-#tip {
-    text-align: center;
-    font-size: 100%;
-    height: 400px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
+  #about-us p {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      text-align: center;
+      font-size: 120%;
+  }
 
-/* space between text and top of section*/
+  #about-us-image {
+      margin: 0px;
+      padding: 0px;
+      height: auto;
+      max-width: 100%;
+  }
 
-#tip-content {
-    padding-top: 10px;
-}
+    /*tip section spacing styling*/
 
-/* Make planner picture a circle*/
-#planner {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    text-align: left;
-    margin-left: 0px;
-    margin-right: 180px;
-}
-/* Newsletter section 768px up */
+    #tip {
+        text-align: center;
+        font-size: 100%;
+        height: 400px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    #monthly {
+        font-size: 120%;
+        text-align: left;
+        padding-right: 320px;
+        margin-right: 320px;
+    }
+    /* space between text and top of section*/
 
-#newsletter {
-    height: 300px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 125%;
-}
+    #tip-content {
+        padding-top: 10px;
+        font-size: 100%;
+        column-count: 2;
+        column-width: 20px;
+        column-gap: 50px;
+        margin: 50px;
+    }
 
-/*submit button larger*/
+    /* Make planner picture a circle*/
+    #planner {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        margin-top: 50px;
+    }
 
-.submit {
-    font-size: 125%;
-    padding: 5px;
-    margin-top: 20px;
-}
+    /* Newsletter section 768px up */
 
-#newsletter h3 {
-    padding-top: 0px;
-    padding-bottom: 40px;
-    text-align: center;
-    font-size: 150%;
+    #newsletter {
+        height: 300px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 125%;
+    }
 
-}
-/*footer styling*/
+    /*submit button larger*/
 
-footer {
-    height: 150px;
-    padding-bottom: 90px;
-    font-size: 200%;
-    align-items: baseline;
-}
+    .submit {
+        font-size: 125%;
+        padding: 5px;
+        margin-top: 20px;
+    }
 
-/* Social media icons larger and spaced from contact information */
-#social-pages {
-    font-size: 140%;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    
-}
+    #newsletter h3 {
+        padding-top: 0px;
+        padding-bottom: 40px;
+        text-align: center;
+        font-size: 150%;
 
+    }
+
+    /*footer styling*/
+
+    footer {
+        height: 165px;
+        padding-bottom: 80px;
+        font-size: 200%;
+        align-items: baseline;
+    }
+
+    /* Social media icons larger and spaced from contact information */
+    #social-pages {
+        font-size: 140%;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+
+    }
 }
