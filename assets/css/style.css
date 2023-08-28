@@ -457,7 +457,7 @@ footer {
         margin: 0px;
         padding: 0px;
         height: auto;
-        max-width: 150%;
+        max-width: fit-content;
     }
 
     /*tip section spacing styling*/
@@ -537,4 +537,38 @@ footer {
         margin-bottom: 0px;
 
     }
+}
+
+/* tweaks for large screens */
+@media screen and (min-width: 1200px) {
+    .nav-bar-label {
+            text-align: right;
+            font-size: 120%;
+            padding-left: 180px;
+            margin-left: 700px;
+        }
+
+        #monthly {
+            font-size: 160%;
+            text-align: left;
+            padding-right: 320px;
+            margin-right: 320px;
+        }
+
+        #tip-content {
+            padding-top: 10px;
+            font-size: 160%;
+            column-count: 3;
+            column-width: 500px;
+            padding-left: 0px;
+            padding-right: 0px;
+            align-items: left;
+        }        
+        
+/* Social media icons larger and spaced from contact information */
+        #social-pages {
+        font-size: 140%;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        }
 }
