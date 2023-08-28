@@ -552,23 +552,21 @@ footer {
             font-size: 160%;
             text-align: left;
             padding-right: 320px;
-            margin-right: 320px;
+            
         }
 
         #tip-content {
-            padding-top: 10px;
+            padding-top: 5px;
             font-size: 160%;
-            column-count: 3;
-            column-width: 500px;
-            padding-left: 0px;
-            padding-right: 0px;
-            align-items: left;
+            margin-right: 500px;
+            column-count: 2;
+            column-gap: 100px;
         }        
         
 /* Social media icons larger and spaced from contact information */
         #social-pages {
         font-size: 140%;
-        padding-bottom: 20px;
-        margin-bottom: 20px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
         }
 }
