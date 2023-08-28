@@ -18,22 +18,23 @@ body {
 
 /*Header*/
 header {
-    background-color: #FEDC61;
+    background-color: #ffffff;
     border-bottom: 1px solid black;
     position: fixed;
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 5px,15px;
-    margin: 5px,15px;
-    align-items: baseline;
-    justify-content: space-between;
+    padding: 0px,15px;
+    margin: 0px,15px;
+    align-items:center;
+    justify-content:flex-start;
 }
 /*No underlines on logo or menu */
 
 header a {
     text-decoration: none;
     color: inherit;
+    padding-left: 10px;
 }
 
 
@@ -63,6 +64,12 @@ nav {
 
 #nav-bar {
     display: none;
+}
+
+.nav-bar-label {
+    text-align: right;
+    padding-left: 120px;
+    font-size: 180%;
 }
 
 /*Main content*/
