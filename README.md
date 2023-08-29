@@ -9,7 +9,7 @@ Visitors to the site will be able to find a monthly tip including links to the m
 product shown, sign up to a monthly newsletter so they do miss new information or news,
 information on how to contact and links to Cleaning Campus social media pages.
 
-![My Image](/assets/images/responsive-screenshots.png)
+![My Image](../assets/images/responsive-screenshots.png)
 
 ## Features
 
@@ -21,13 +21,13 @@ About us, Monthly tip, Newsletter sign up and contact us sections.
 I have use the google font Courgette from the sans family as i wanted to use someting that was clear to read but also had the sense of handwritting
 to make the user feel like they are reading someones own cleaning manual that they are sharing with them.
 
-![My Image](/assets/images/Navbar-screenshot.png)
+![My Image](../assets/images/Navbar-screenshot.png)
 
 ### About us
 
 This section introduces the ethos of the site and has an image for interest.
 
-![My Image](/assets/images/aboutus-image.png)
+![My Image](../assets/images/aboutus-image.png)
 
 ### Monthly tip
 
