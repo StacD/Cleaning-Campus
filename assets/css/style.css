@@ -445,6 +445,7 @@ footer {
 @media screen and (min-width: 992px) {
     header {
         height:fit-content;
+        margin-bottom: 0px;
     }
 
     #logo {
@@ -459,8 +460,14 @@ footer {
         margin-left: 400px;
     }
 
+    #menu {
+        margin-top: 70px;
+        margin-bottom: 70px;
+        font-size: 100%;
+    }
+
     #about-us {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     #about-us p {
@@ -475,7 +482,7 @@ footer {
         margin: 0px;
         padding: 0px;
         height: auto;
-        max-width: fit-content;
+        
     }
 
     /*tip section spacing styling*/
