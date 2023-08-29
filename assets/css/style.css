@@ -115,7 +115,7 @@ main {
     margin-top: 100px;
     margin-right: 20px;
     margin-left: 0px;
-    align-items:right;
+    
 }
 /*tip section*/
 
@@ -508,9 +508,11 @@ footer {
         padding-top: 10px;
         font-size: 160%;
         column-count: 2;
-        column-width: 20px;
-        column-gap: 50px;
-        margin: 50px;
+        column-width: 100px;
+        column-gap: 100px;
+        margin: 10px;
+        margin-right: 150px;
+        margin-left: 20px;
     }
 
     /* Make planner picture a circle*/
