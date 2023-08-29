@@ -16,8 +16,9 @@ image - response## Features
 ### Nav bar
 
 At the top of the page the logo is shown with the navidation bar to the right. This includes links to the
-About us, Monthly tip, Newsletter sign up and contact us sections. I have use the google font Courgette
-from the sans family as i wanted to use someting that was clear to read but also had the sense of handwritting
+About us, Monthly tip, Newsletter sign up and contact us sections. 
+
+I have use the google font Courgette from the sans family as i wanted to use someting that was clear to read but also had the sense of handwritting
 to make the user feel like they are reading someones own cleaning manual that they are sharing with them.
 
 image - nav bar
@@ -47,3 +48,13 @@ image-newsleter
 Users can find the contact information for Cleaning campus ad the links to their social madia pages.
 By having this information and links in one place it makes it easier for the user to contact or say in touch
 with Cleaning Campus.
+
+## Testing
+
+I have used devtools device bar and Am I responsive to see the responsiveness of my page. [Link to Am I responsive](https://ui.dev/amiresponsive?url=https://stacd.github.io/Cleaning-Campus/)
+
+I tested the page by sending the link to family members to use on their own devices and opened it up on my own device on both chrome and Microsoft Edge.
+
+I have tested the form which does submit successfully and will only work with all fields completed and an email in the email field.
+
+My external links to social media pages and the planner link on amazon also work.
