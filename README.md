@@ -58,3 +58,13 @@ I tested the page by sending the link to family members to use on their own devi
 I have tested the form which does submit successfully and will only work with all fields completed and an email in the email field.
 
 My external links to social media pages and the planner link on amazon also work.
+
+## Bugs
+
+### Solved Bugs
+
+I had miss labeled for my aria-label when i first added them in as i had used aria-labelledby by mistake so i replaced with the aria-label and it corrected this.
+
+I had used span instead of div in my About us section which flaged up in HTML validating, this has now been corrected.
+
+## Validator Testing
