@@ -91,3 +91,11 @@ I have deployed my site using GitHub pages.
 </ul>
 
 Here is the link to [Cleaning Campus](https://stacd.github.io/Cleaning-Campus/index.html)
+
+## Credits
+<ul>
+<li>I used the codeinsitute file dump link for my form.</li>
+<li>I used social media icons from Font Awesome</li>
+<li>Images came from Pexels.com</li>
+<li>Link and image of planner came from Amazon.</li>
+</ul>
