@@ -568,6 +568,12 @@ footer {
 
 /* tweaks for large screens */
 @media screen and (min-width: 1200px) {
+
+header {
+        height: fit-content;
+        margin-bottom: 0px;
+        }
+
     .nav-bar-label {
             justify-content: right;
             font-size: 120%;
