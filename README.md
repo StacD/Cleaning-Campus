@@ -8,3 +8,5 @@ cleaning, cleaning tips and products.
 Visitors to the site will be able to find a monthly tip including links to the monthly
 product shown, sign up to a monthly newsletter so they do miss new information or news,
 information on how to contact and links to Cleaning Campus social media pages.
+
+<img src="assets/images/responsive-screenshots.png">
