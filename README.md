@@ -59,12 +59,35 @@ I have tested the form which does submit successfully and will only work with al
 
 My external links to social media pages and the planner link on amazon also work.
 
-## Bugs
+### Bugs
 
-### Solved Bugs
+#### Solved Bugs
 
 I had miss labeled for my aria-label when i first added them in as i had used aria-labelledby by mistake so i replaced with the aria-label and it corrected this.
 
 I had used span instead of div in my About us section which flaged up in HTML validating, this has now been corrected.
 
-## Validator Testing
+### Validator Testing
+
+HTML passed through the validator with no errors.
+
+CSS passed through the validator with no errors.
+
+For Accessibility I ran the lighthouse in devtoold to ensure my page was easy to read and met a high accessibilty standard.
+
+### Unfixed Bugs
+
+No bugs are present however I would if had more time worked on the placement of the images on the site to get a sharper finish to the look of the site.
+
+## Deployment
+
+I have deployed my site using GitHub pages. 
+<ul><li>To do this whilst in the repository select the 'Setting' tabs at the top.</li>
+<li>Then to the left of the page there is a menu where you select 'pages'.</li>
+<li>On this page ensure you select 'Deploy from branch'.</li>
+<li>Then select 'Main' then 'Root' and press save.</li>
+<li>Then select 'Code' in the top menu which will take you to your main page.</li>
+<li>You will see down the right hand side 'Deployments' where you can select this.</li>
+</ul>
+
+Here is the link to [Cleaning Campus](https://stacd.github.io/Cleaning-Campus/index.html)
