@@ -114,7 +114,7 @@ main {
     width:30%;
     margin-top: 100px;
     margin-right: 100px;
-    align-items: left;
+    align-items:center;
 }
 /*tip section*/
 
@@ -319,10 +319,13 @@ footer {
     header {
         font-size: 200%;
     }
+
     #logo {
         font-size: 400%;
-
     }
+
+/* Losing nav menu icon when larger screens*/    
+
     .nav-bar-label {
         display: none;
     }
@@ -340,8 +343,8 @@ footer {
         text-align: center;
         margin-left: 150px;
         margin-right: 20px;
-        padding left: 20px
-        
+        padding-left: 20px;
+        padding-bottom: 20px;
     }
 
     #about-us p {
@@ -357,7 +360,7 @@ footer {
       padding: 0px;
       height: auto;
       max-width: 100%;
-  }
+    }
 
     /*tip section spacing styling*/
 
@@ -368,6 +371,7 @@ footer {
         padding-top: 10px;
         padding-bottom: 5px;
     }
+
     #monthly {
         font-size: 120%;
         text-align: left;
@@ -415,7 +419,6 @@ footer {
         padding-bottom: 40px;
         text-align: center;
         font-size: 150%;
-
     }
 
     /*footer styling*/
@@ -432,9 +435,9 @@ footer {
         font-size: 140%;
         padding-bottom: 0px;
         margin-bottom: 0px;
-
     }
 }
+
 /*large screen sizes 992px up*/
 
 @media screen and (min-width: 992px) {
