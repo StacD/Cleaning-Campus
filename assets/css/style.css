@@ -328,27 +328,25 @@ footer {
         font-size: 400%;
     }
 
-/* Losing nav menu icon when larger screens*/    
+/* Losing nav menu icon when larger screens*/   
 
     .nav-bar-label {
-        display: none;
+        display:none;
     }
 
     nav {
-        font-size: 100%;
-        color: black;
-        display:block;
-        position: relative;
-        background-color: #ffffff;
-    }
-
-    #menu >li {
         display: inline-block;
-        text-align: center;
-        margin-left: 150px;
-        margin-right: 20px;
-        padding-left: 20px;
-        padding-bottom: 20px;
+        position:relative;
+        background-color: transparent;
+    }
+    
+    #menu {
+            display: flex;
+            font-size: 75%;
+            text-align: right;
+            margin-bottom: 150px;
+            margin-left: 0px;
+            justify-content: space-evenly;
     }
 
     #about-us p {
