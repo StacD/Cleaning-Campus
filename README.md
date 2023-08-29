@@ -9,4 +9,5 @@ Visitors to the site will be able to find a monthly tip including links to the m
 product shown, sign up to a monthly newsletter so they do miss new information or news,
 information on how to contact and links to Cleaning Campus social media pages.
 
-<img src="cleaning-campus/assets/images/responsive-screenshots.png">
+![responsive-screenshots](https://github.com/StacD/Cleaning-Campus/assets/138209534/2b99ceee-0e94-4339-9eef-84175059bbaa)
+
