@@ -113,8 +113,9 @@ main {
     height: 30%;
     width:30%;
     margin-top: 100px;
-    margin-right: 100px;
-    align-items:center;
+    margin-right: 20px;
+    margin-left: 0px;
+    align-items:right;
 }
 /*tip section*/
 
@@ -245,7 +246,10 @@ footer {
 }
 
 #about-us-image {
-    margin-right: 0px;
+    margin-right: 50px;
+    margin-left: 10px;
+    width:100%;
+    align-items: center;
 }
 
 /*tip section spacing styling*/
