@@ -16,7 +16,7 @@ information on how to contact and links to Cleaning Campus social media pages.
 ### Nav bar
 
 At the top of the page the logo is shown with the navidation bar to the right. This includes links to the
-About us, Monthly tip, Newsletter sign up and contact us sections. 
+About us, Monthly tip, Newsletter sign up and contact us sections.
 
 I have use the google font Courgette from the sans family as i wanted to use someting that was clear to read but also had the sense of handwritting
 to make the user feel like they are reading someones own cleaning manual that they are sharing with them.
@@ -77,7 +77,7 @@ CSS passed through the validator with no errors.
 
 For Accessibility I ran the lighthouse in devtoold to ensure my page was easy to read and met a high accessibilty standard.
 
-![Lighthouse Screenshot](assets/images/lighthousereport-image.png)
+![Lighthouse Screenshot](images/lighthousereport-image.png)
 
 ### Unfixed Bugs
 
@@ -85,21 +85,24 @@ No bugs are present however I would if had more time worked on the placement of 
 
 ## Deployment
 
-I have deployed my site using GitHub pages. 
-<ul><li>To do this whilst in the repository select the 'Setting' tabs at the top.</li>
-<li>Then to the left of the page there is a menu where you select 'pages'.</li>
-<li>On this page ensure you select 'Deploy from branch'.</li>
-<li>Then select 'Main' then 'Root' and press save.</li>
-<li>Then select 'Code' in the top menu which will take you to your main page.</li>
-<li>You will see down the right hand side 'Deployments' where you can select this.</li>
-</ul>
+I have deployed my site using GitHub pages.
+
+    <ul>
+    <li>To do this whilst in the repository select the 'Setting' tabs at the top.</li>
+    <li>Then to the left of the page there is a menu where you select 'pages'.</li>
+    <li>On this page ensure you select 'Deploy from branch'.</li>
+    <li>Then select 'Main' then 'Root' and press save.</li>
+    <li>Then select 'Code' in the top menu which will take you to your main page.</li>
+    <li>You will see down the right hand side 'Deployments' where you can select this.</li>
+    </ul>
 
 Here is the link to [Cleaning Campus](https://stacd.github.io/Cleaning-Campus/index.html)
 
 ## Credits
-<ul>
-<li>I used the codeinsitute file dump link for my form.</li>
-<li>I used social media icons from Font Awesome</li>
-<li>Images came from Pexels.com</li>
-<li>Link and image of planner came from Amazon.</li>
-</ul>
+
+    <ul>
+    <li>I used the codeinsitute file dump link for my form.</li>
+    <li>I used social media icons from Font Awesome</li>
+    <li>Images came from Pexels.com</li>
+    <li>Link and image of planner came from Amazon.</li>
+    </ul>
