@@ -208,20 +208,20 @@ footer {
 
 @media screen and (min-width: 540px) {
 
-    /* Make header a better size for larger screen*/
+/* Make header a better size for larger screen*/
 
-    header {
-        height: 100px;
-        font-size: 25px;
-        align-items: center;
-    }
+header {
+    height: 100px;
+    font-size: 25px;
+    align-items: center;
+}
 
-    .nav-bar-label {
-        text-align: right;
-        font-size: 120%;
-        padding-left: 180px;
-        margin-left: 180px;
-    }
+.nav-bar-label {
+    text-align: right;
+    font-size: 120%;
+    padding-left: 180px;
+    margin-left: 180px;
+}
 
 
 /* space between text and top of section and H3 placement*/
@@ -427,90 +427,27 @@ footer {
     }
 }
 
-/*large screen sizes 992px up*/
+/* tweaks for large screens */
+@media screen and (min-width: 1200px) {
 
-@media screen and (min-width: 992px) {
     header {
-        height:fit-content;
+        justify-content:center;
         margin-bottom: 0px;
+        padding-bottom: 10px;
+        font-size: 300%;
     }
 
     #logo {
-        padding-right: 200px;
-
-    }
-
-    .nav-bar-label {
-        text-align: right;
-        font-size: 120%;
-        padding-left: 180px;
-        margin-left: 400px;
-    }
-
-    #menu {
-        margin-top: 70px;
-        margin-bottom: 70px;
-        font-size: 100%;
-    }
-
-    #about-us {
-        margin-top: 100px;
+        padding-bottom: 35px;
     }
 
     #about-us p {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        text-align: center;
-        font-size: 150%;
+        font-size: 180%;
     }
-
-    #about-us-image {
-        margin: 0px;
-        padding: 0px;
-        height: auto;
-        
-    }
-
-    /*tip section spacing styling*/
-
-    #tip {
-        text-align: center;
-        font-size: 100%;
-        height: 400px;
-        padding-top: 10px;
-        padding-bottom: 5px;
-    }
-
-    #monthly {
-        font-size: 160%;
-        text-align: left;
-        padding-right: 320px;
-        margin-right: 320px;
-    }
-
-    /* space between text and top of section*/
 
     #tip-content {
-        padding-top: 10px;
-        font-size: 160%;
-        column-count: 2;
-        column-width: 100px;
-        column-gap: 100px;
-        margin: 10px;
-        margin-right: 150px;
-        margin-left: 20px;
+        font-size: 120%;
     }
-
-    /* Make planner picture a circle*/
-    #planner {
-        height: 150px;
-        width: 150px;
-        border-radius: 50%;
-        margin-top: 15px;
-    }
-
-    /* Newsletter section 768px up */
 
     #newsletter {
         height: 300px;
@@ -518,74 +455,4 @@ footer {
         padding-bottom: 30px;
         font-size: 125%;
     }
-
-    /*submit button larger*/
-
-    .submit {
-        font-size: 125%;
-        padding: 5px;
-        margin-top: 20px;
-    }
-
-    #newsletter h3 {
-        padding-top: 0px;
-        padding-bottom: 40px;
-        text-align: center;
-        font-size: 150%;
-
-    }
-
-    /*footer styling*/
-
-    footer {
-        height: 165px;
-        padding-bottom: 80px;
-        font-size: 200%;
-        align-items: baseline;
-    }
-
-    /* Social media icons larger and spaced from contact information */
-    #social-pages {
-        font-size: 140%;
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-
-    }
-}
-
-/* tweaks for large screens */
-@media screen and (min-width: 1200px) {
-
-header {
-        height: fit-content;
-        margin-bottom: 0px;
-        }
-
-    .nav-bar-label {
-            justify-content: right;
-            font-size: 120%;
-            padding-left: 180px;
-            margin-left: 900px;
-        }
-
-        #monthly {
-            font-size: 160%;
-            text-align: left;
-            padding-right: 320px;
-            
-        }
-
-        #tip-content {
-            padding-top: 5px;
-            font-size: 160%;
-            column-count: 2;
-            column-gap: 40px;
-        }        
-        
-/* Social media icons larger and spaced from contact information */
-        #social-pages {
-        font-size: 140%;
-        padding-bottom: 5px;
-        margin-bottom: 5px;
-        }
 }
