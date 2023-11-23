@@ -87,7 +87,9 @@ main {
     margin-top: 0px;
     padding: 0px;
     padding-bottom:5px;
-    padding-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
     text-align: center;
 }
  /* Losing white space between header and main content*/
@@ -106,22 +108,25 @@ main {
 /*tip section*/
 
 #tip {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     border-top: 1px solid black;
     background-color: rgb(255, 251, 168);
+    margin-top: 0px;
+    padding: 0px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    text-align: center;
 }
 
 #tip h3 {
     font-size: 180%;
     padding-bottom: 5px;
 }
+
 #tip-content {
-    flex-basis: 200px;
-    flex-grow: 1;
     font-size: 90%;
-    text-align: center;
 }
 /*Image wih link style*/
 
@@ -246,23 +251,18 @@ footer {
 }
 
 /*tip section spacing styling*/
-
 #tip {
-    height: 300px;
     padding-top: 10px;
-    padding-bottom: 5px;
-    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 140%;
 }
 
-#tip h3 {
-    font-size: 200%;
-    text-align: center;
-    padding-bottom: 5px;
-
-/* space between text and top of section*/
-
-#tip-content {
-    font-size: 140px;
+#tip h3
+{
+    font-size: 140%;
 }
 
 /* Make planner picture a circle*/
@@ -277,7 +277,7 @@ footer {
 
 #newsletter {
     height: 200px;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -290,19 +290,22 @@ footer {
 }
 
 #newsletter h3 {
-    padding-top: 0px;
+    padding-top: 5px;
     padding-bottom: 10px;
     text-align: center;
-    font-size: 120%;
+    font-size: 160%;
 
 }
 
 /*footer styling*/
 
 footer {
-    height: 100px;
+    height: 125px;
     padding-top: 10px;
+    padding-bottom: 0px;
     align-items: baseline;
+    font-size: 150%;
+    margin-bottom: 0px;
 }
 
 /* Social media icons larger and spaced from contact information */
