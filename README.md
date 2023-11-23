@@ -77,7 +77,7 @@ CSS passed through the validator with no errors.
 
 For Accessibility I ran the lighthouse in devtoold to ensure my page was easy to read and met a high accessibilty standard.
 
-![Lighthouse Screenshot](assets/images/lighthousereport-image.png)
+![Lighthouse Screenshot](assets/images/lighthouse-report-screenshot.PNG)
 
 ### Unfixed Bugs
 
