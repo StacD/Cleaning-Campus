@@ -9,6 +9,10 @@ Visitors to the site will be able to find a monthly tip including links to the m
 product shown, sign up to a monthly newsletter so they do miss new information or news,
 information on how to contact and links to Cleaning Campus social media pages.
 
+I used a simple background of white and lemon as these colours are associated with cleanliness
+and a picture of a tidy clean room as an aspirational image. The font 'Courgette' looks like handwriting
+so the user feels they are reading text written with a human touch rather than reading a text book that lectures.
+
 ![Reponsive Screenshot](assets/images/responsive.PNG)
 
 ## Features
