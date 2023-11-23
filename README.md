@@ -77,7 +77,7 @@ CSS passed through the validator with no errors.
 
 For Accessibility I ran the lighthouse in devtoold to ensure my page was easy to read and met a high accessibilty standard.
 
-![Lighthouse Screenshot](images/lighthousereport-image.png)
+![Lighthouse Screenshot](assets/images/lighthousereport-image.png)
 
 ### Unfixed Bugs
 
@@ -87,22 +87,22 @@ No bugs are present however I would if had more time worked on the placement of 
 
 I have deployed my site using GitHub pages.
 
-    <ul>
-    <li>To do this whilst in the repository select the 'Setting' tabs at the top.</li>
-    <li>Then to the left of the page there is a menu where you select 'pages'.</li>
-    <li>On this page ensure you select 'Deploy from branch'.</li>
-    <li>Then select 'Main' then 'Root' and press save.</li>
-    <li>Then select 'Code' in the top menu which will take you to your main page.</li>
-    <li>You will see down the right hand side 'Deployments' where you can select this.</li>
-    </ul>
+<ul>
+<li>To do this whilst in the repository select the 'Setting' tabs at the top.</li>
+<li>Then to the left of the page there is a menu where you select 'pages'.</li>
+<li>On this page ensure you select 'Deploy from branch'.</li>
+<li>Then select 'Main' then 'Root' and press save.</li>
+<li>Then select 'Code' in the top menu which will take you to your main page.</li>
+<li>You will see down the right hand side 'Deployments' where you can select this.</li>
+</ul>
 
 Here is the link to [Cleaning Campus](https://stacd.github.io/Cleaning-Campus/index.html)
 
 ## Credits
 
-    <ul>
-    <li>I used the codeinsitute file dump link for my form.</li>
-    <li>I used social media icons from Font Awesome</li>
-    <li>Images came from Pexels.com</li>
-    <li>Link and image of planner came from Amazon.</li>
-    </ul>
+<ul>
+<li>I used the codeinsitute file dump link for my form.</li>
+<li>I used social media icons from Font Awesome</li>
+<li>Images came from Pexels.com</li>
+<li>Link and image of planner came from Amazon.</li>
+</ul>
